@@ -1,9 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import Head from 'next/head';
+import { Inter } from 'next/font/google';
+import styles from '@/styles/Home.module.css';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
@@ -27,7 +26,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               By{' '}
-              <Image
+              <img
                 src="/vercel.svg"
                 alt="Vercel Logo"
                 className={styles.vercelLogo}
@@ -40,7 +39,7 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
-          <Image
+          <img
             className={styles.logo}
             src="/next.svg"
             alt="Next.js Logo"
@@ -49,7 +48,7 @@ export default function Home() {
             priority
           />
           <div className={styles.thirteen}>
-            <Image
+            <img
               src="/thirteen.svg"
               alt="13"
               width={40}
@@ -119,5 +118,5 @@ export default function Home() {
         </div>
       </main>
     </>
-  )
+  );
 }
