@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "clearUrls": true,
     "public": "out",
     "ignore": [
       "firebase.json",
